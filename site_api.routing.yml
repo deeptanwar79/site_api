@@ -1,0 +1,7 @@
+site_api.page_json:
+  path: '/page-json/{siteapikey}/{node_id}'
+  defaults:
+    _controller: '\Drupal\site_api\Controller\PageJsonController::getPageJson'
+  requirements:
+    _access: 'TRUE'
+    
