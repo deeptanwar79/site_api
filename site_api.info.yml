@@ -4,6 +4,7 @@ description: Provides interface to add "Site API key" and exposes endpoint for "
 core: 8.x
 configure: system.site_information_settings
 dependencies:
+  - jsonapi
   - rest
   - serialization
 

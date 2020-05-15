@@ -31,7 +31,7 @@ function site_api_form_system_site_information_settings_submit(array &$form, For
   $site_key = $form_state->getValue('siteapikey');
   $config->set('siteapikey', $site_key)->save();
 
-  // Logg site key on save.
+  // Log site key on save.
   \Drupal::logger('site_api')->notice(t('Site API Key has been saved with value: %value.'),
     array(
       '%value' => $site_key,

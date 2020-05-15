@@ -11,4 +11,4 @@ For invalid parameters "access denied" message is returned.
 Total two different types of endpoints are created in this module. Both return the same content.
 
 1) A Resource using Rest module. Endpoint URL is : BASE URL/api/page/[siteapikey]/[node_id]?_format=json
-2) A controller endpoint. Endpoint URL is : BASE URL/page-json/[siteapikey]/[node_id]
+2) A controller endpoint. Endpoint URL is : BASE URL/page_json/[siteapikey]/[node_id]
